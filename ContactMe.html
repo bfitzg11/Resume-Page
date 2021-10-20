@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <title>Brandon Fitzgerald's Resume/Contact Me</title>
+    <Head>
+        <h1>Contact Me</h1>
+    </Head>
+    <form action="https://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
+        <table>
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" name="Name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="Company">Company:</label></td>
+            <td><input type="text" name="Company" id="Company"></td>
+        </tr>
+        <tr>
+            <td><label for="Position">Position:</label></td>
+            <td><input type="text" name="Position" id="Position"></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input type="email" name="Email" id="Email"></td>
+        </tr>
+        <tr>
+            <td><label for="Number">Phone Number:</label></td>
+            <td><input type="number" name="Number" id="Number"></td>
+        </tr>
+        <tr>
+            <td>Can I Contact You?</td>
+            <td>
+                <input type="radio" id="Yes" name="Contact Back" value="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" id="No" name="Contact Back" value="No">
+                <label for="No">No</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Preferred method of contact</td>
+            <td>
+                <input type="checkbox" id="Phone" name="Contact-Phone" value="Phone">
+                <label for="Phone">Phone</label>
+                <input type="checkbox" id="Text" name="Contact-Text" value="Text">
+                <label for="Text">Text</label>
+                <input type="checkbox" id="Email" name="Contact-Email" value="Email">
+                <label for="Email">Email</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="comments">Comments</label></td>
+        </tr>
+        <tr>
+            <td colspan="2"><textarea name="comments" id="comments" cols="50" rows="4" maxlength="350">Enter your comments or concerns here</textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit"><b>Submit</b></button>
+            </td>
+        </tr>
+        </table>
+    </form>
+</html>
