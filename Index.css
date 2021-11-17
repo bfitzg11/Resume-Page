@@ -9,7 +9,7 @@ body {
 h1 {
     color: rgb(77, 66, 36);
     text-align: center;
-    background-color: rgb(148, 179, 236);
+    background-color: rgb(177, 177, 216);
     width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@ h1 {
 table {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(177, 177, 216);
+    background-color: rgb(131, 145, 170);
 }
 .MainNav {
     border-color: rgb(129, 100, 100);
