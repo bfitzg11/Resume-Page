@@ -1,0 +1,30 @@
+.MainNav {
+    border-color: rgb(129, 100, 100);
+    text-align: center;
+    font-family: "monaco", monospace;
+}
+h1 {
+    color: rgb(77, 66, 36);
+    text-align: center;
+    background-color: rgb(177, 177, 216);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "monaco", monospace;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(131, 145, 170);
+}
+body{
+    background-color: rgb(64, 64, 129);
+}
+.ProjectsDiv {
+    text-align: center;
+    background-color: rgb(34, 13, 54);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: lightgray;
+}
