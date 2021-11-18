@@ -2,27 +2,45 @@
 <html>
     <title>Brandon Fitzgerald's Resume/About Me</title>
     <head>
-        <nav>
-            <a href="Index.html"> <h2>Return Home</h2></a>
-        </nav>
+        <link rel="StyleSheet" type="text/css" href="About.css">
     </head>
+    <body>
     <div>
-        <table style="width: 1000px;">
-            <tr>
-                <td><h1>Brandon Fitzgerald</h1></td>
-                <td>
-                    1987 W 13330 S Riverton UT 84065
-                    <br>
-                    (385)253-2193
-                    <br>
-                    brandonfitzy02@gmail.com
-                </td>
-            </tr> 
-            <br>
-        </table>
-        <img style="width: 200px;" src="Profile Image.jpg" alt="Profile Photo">
+            <table width="1000px" id="NavTable">
+                <tr>
+                    <td class="MainNav">
+                        <nav>
+                        <a href="Index.html"><h3>Home</h3></a>
+                        </nav>
+                    </td>
+                    <td class="MainNav">
+                        <nav>
+                        <a href="Portfolio.html"><h3>Portfolio</h3></a>
+                        </nav>
+                    </td>
+                    <td class="MainNav">
+                        <nav>
+                        <a href="About.html"><h3>About</h3></a>
+                        </nav>
+                    </td>
+                    <td class="MainNav">
+                        <nav>
+                            <a href="ContactMe.html"><h3>Contact Me</h3></a>
+                            </nav>
+                    </td>
+                </tr>
+            </table>
+            </div>
+        <h1>About Me - Brandon Fitzgerald</h1>
+    <div>
+        <img id="ProfileImage" style="width: 200px;" src="Profile Image.jpg" alt="Profile Photo">   
     </div>
-    <div>
+    <div id="BasicInfo">
+        <h4>(385)253-2193</h4>
+        <h4>brandonfitzy02@gmail.com</h4>
+    </div>
+
+    <div id="Experience" class="Information">
         <h2>
             <strong> Experience</strong>
         </h2>
@@ -32,16 +50,16 @@
             Riverton, UT
         </h4>
         <p>
-            <ul>
+            <ul class="List">
                 <li>Use of positive customer Service</li>
                 <li>Prepared food then wrapped it nicely and put order into bag</li>
                 <li>Worked with a computerized register</li>
                 <li>Multi-tasked in a fast paced environment, able to get things done quick</li>
             </ul>
         </p>
-        </div>
+    </div>
         <br>
-        <div>
+    <div id="Education" class="Information">
             <h2>
                 <strong> Education </strong>
             </h2>
@@ -51,7 +69,7 @@
                 Riverton, UT
             </h4>
             <p>
-                <ul>
+                <ul class="List">
                     <li>Accounting I & II</li>
                     <li>Worked in school store for 7 months (shut down due to COVID)</li>
                 </ul>
@@ -62,8 +80,8 @@
                 Riverton, UT
             </h4>
             <p>
-                <ul>
-                    <li> Learned Html, TBD</li>
+                <ul class="List">
+                    <li> Learned Programming Languages: Html, Css, JavaScript, WordPress</li>
                     <li> Created websites for business
                         <em>
                             
@@ -74,9 +92,9 @@
                     </li>
                 </ul>
             </p>
-        </div>
+    </div>
         <br>
-        <div>
+    <div id="Skills" class="Information">
             <h2>
                 <strong> Skills </strong>
             </h2>
@@ -84,7 +102,7 @@
                 <strong> Computer Skills </strong>
             </h4>
             <p>
-                <ul>
+                <ul class="List">
                     <li>Google Docs, Sheets & Slides</li>
                     <li>Microsoft Word, Excel & Powerpoint</li>
                     <li>Programming Softwares (Html, Css, Php)</li>
@@ -94,17 +112,19 @@
                 <strong> Other Skills </strong>
             </h4>
             <p>
-                <ul>
+                <ul class="List">
                     <li>Customer Service</li>
                     <li>Cash / Credit Card Payments</li>
                     <li>Food Preparation</li>
                     <li>Cleaning</li>
                 </ul>
             </p>
-        </div>
-        <div>
-            <a href="Resume Image.jpg" download>
-                <img style="width: 200px;" src="Resume Image.jpg" alt="Resume Download">
+    </div>
+        <div id="Resume">
+            <h3>Click on the image below to view a copy of my resume</h3>
+            <a id="ResumePhoto" href="Resume Image.jpg" download="file:///C:/Users/bboyr/Resume%20Website/Resume%20Image.jpg">
+                <img style="width: 500px;" src="Resume Image.jpg" alt="Resume Download">
             </a>
         </div>
+    </body>
 </html>
