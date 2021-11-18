@@ -2,13 +2,38 @@
 <html>
     <title>Brandon Fitzgerald's Resume/Contact Me</title>
     <Head>
-        <nav>
-            <a href="Index.html"> <h2>Return Home</h2></a>
-        </nav>
-        <h1>Contact Me</h1>
+        <link rel="StyleSheet" type="text/css" href="ContactMe.css">
     </Head>
+    <body>
+        <div>
+            <table id="NavTable" width="1000px">
+                <tr>
+                    <td class="MainNav">
+                        <nav>
+                        <a href="Index.html"><h3>Home</h3></a>
+                        </nav>
+                    </td>
+                    <td class="MainNav">
+                        <nav>
+                        <a href="Portfolio.html"><h3>Portfolio</h3></a>
+                        </nav>
+                    </td>
+                    <td class="MainNav">
+                        <nav>
+                        <a href="About.html"><h3>About</h3></a>
+                        </nav>
+                    </td>
+                    <td class="MainNav">
+                        <nav>
+                            <a href="ContactMe.html"><h3>Contact Me</h3></a>
+                            </nav>
+                    </td>
+                </tr>
+            </table>
+            </div>
+    <h1>Contact Me</h1>
     <form action="https://form-test.slccwebdev.com/form-success.php" method="get" target="_blank">
-        <table>
+        <table id="Contact">
         <tr>
             <td><label for="name">Name:</label></td>
             <td><input type="text" name="Name" id="name"></td>
@@ -62,4 +87,5 @@
         </tr>
         </table>
     </form>
+    </body>
 </html>
