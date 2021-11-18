@@ -10,3 +10,17 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+#NavTable {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(131, 145, 170);
+}
+.MainNav {
+    border-color: rgb(129, 100, 100);
+    text-align: center;
+}
+#Contact {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(185, 147, 111, 0.603);
+}
