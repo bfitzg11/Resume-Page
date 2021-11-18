@@ -10,3 +10,39 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+#NavTable {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(131, 145, 170);
+}
+.MainNav {
+    border-color: rgb(129, 100, 100);
+    text-align: center;
+}
+#BasicInfo{
+    text-align: left;
+    background-color: rgb(212, 212, 212);
+    width: 250px;
+    margin-right: auto;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+#ProfileImage {
+    position: relative;
+    float: right;
+    margin-right: 100px;
+}
+.Information {
+    background-color: rgb(168, 121, 102);
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.List {
+    text-align: left;
+}
+#Resume {
+    text-align: center;
+    color: white;
+}
