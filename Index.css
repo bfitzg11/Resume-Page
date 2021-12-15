@@ -14,6 +14,9 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
+h3 {
+    color: black;
+}
 table {
     margin-left: auto;
     margin-right: auto;
@@ -22,4 +25,14 @@ table {
 .MainNav {
     border-color: rgb(129, 100, 100);
     text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+#nameModalButton {
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
